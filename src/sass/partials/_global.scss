@@ -1,0 +1,47 @@
+.navbar{
+  padding-top: 17px;
+}
+
+.navbar-brand{
+  font-size: 22px;
+  font-weight: 500;
+  font-family: $headings-font-family;
+  letter-spacing: 0.3px;
+  font-style: italic;
+}
+
+.media-icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.media-icons i{
+  font-size: 24px;
+  padding: 0px 15px;
+  &:hover{
+    color: $colour-primary;
+  }
+
+}
+
+.paragraph{
+  margin-top: 20px;
+}
+.paragraph h2{
+  margin-bottom: 20px;
+}
+
+@media (min-width: $medium-width){
+  .navbar-brand{
+    font-size: 30px;
+    font-weight: 600; 
+  }
+  .mr-auto {
+    padding-left: 30px;
+  }
+
+}
+
+

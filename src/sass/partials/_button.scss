@@ -1,0 +1,10 @@
+.btn-light{
+  font-size: 20px;
+}
+.justify-content-center .btn-primary{
+  background: $colour-secondary;
+  border: none;
+  &:hover{
+    background: $colour-primary;
+  }
+}

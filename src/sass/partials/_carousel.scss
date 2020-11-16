@@ -1,0 +1,29 @@
+.carousel{
+  margin-top: 0px;
+}
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  color: $colour-light;
+  opacity: 10;
+  
+}
+li.active{
+  background-color: $colour-primary;
+}
+
+@media (min-width: $medium-width){
+  .carousel-indicators li{
+    width: 20px;
+    height: 20px;
+
+}
+}
+
+@media (min-width: $large-width){
+  .carousel-indicators li{
+    width: 30px;
+    height: 30px;
+
+}
+}

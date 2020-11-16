@@ -1,0 +1,33 @@
+.footer {
+  background-color: $colour-light;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer i{
+font-size: 24px;
+padding: 10px;
+color: $colour-secondary;
+&:hover{
+  color: $colour-primary;
+}
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: $medium-width){
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .info{
+    width: 55%;
+  }
+  
+}

@@ -1,0 +1,19 @@
+.page-link {
+  margin-top: 20px;
+  position: relative;
+  display: block;
+  padding: 1.0rem 1.15rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: $colour-primary;
+  background-color: $colour-light;
+  border: 1px solid $colour-primary;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: $colour-light;
+  text-decoration: none;
+  background-color: $colour-primary;
+  border-color: $colour-primary;
+}

@@ -1,0 +1,18 @@
+.accordion{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow:   0 1rem 3rem rgba($colour-dark, .175);
+  border-radius: 12px;
+  > .card{
+    border-radius: 12px; 
+  }
+}
+.accordion .card-body{
+  border: none;
+  border-top: 2px solid $colour-primary;
+  
+}
+.btn-acordion:hover{
+  text-decoration: none;
+  color: $colour-secondary;
+}

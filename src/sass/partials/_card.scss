@@ -1,0 +1,49 @@
+.card-columns {
+  padding-top: 30px;
+}
+
+.card-img, .card-img-bottom {
+  border-bottom-right-radius: none;
+  border-bottom-left-radius: none;
+}
+
+.card-columns  .btn-primary{
+  background: linear-gradient(90deg, $colour-primary 90%, $colour-secondary 10%);
+  border: none;
+  padding-left: -40px;
+}
+.card-columns  .btn-primary:hover{
+  background: linear-gradient(90deg, $colour-secondary 80%, $colour-primary 20%);
+}
+
+.card-title {
+  color: $colour-dark; 
+  font-family: $font-family-base;
+}
+.card-body {
+  color: $colour-secondary;
+}
+
+
+@media (min-width: $smal-width){
+ .card-columns {
+    column-count: 2;
+}
+}
+
+@media (min-width: $large-width){
+ .card-columns {
+      column-count: 3;
+  }
+  }
+
+  @media (min-width: $large-xl-width){
+    .card-columns {
+        column-count: 4;
+    }
+    .card-columns  .btn-primary{
+      background: linear-gradient(90deg, $colour-primary 80%, $colour-secondary 20%);
+     
+    }
+    }
+  

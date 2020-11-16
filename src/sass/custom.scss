@@ -1,0 +1,56 @@
+$colour-primary: #E92569;
+$colour-dark: #0A0A0A;
+$colour-secondary: #5e5d5d;
+$colour-light: #EFEFEF;
+$colour-green:  #35911e;
+
+$theme-colors: (
+    "primary": $colour-primary,
+    "dark":   $colour-dark,
+  );
+
+$navbar-light-brand-color:  $colour-primary;                
+$navbar-light-brand-hover-color: $colour-primary; 
+$nav-link-disabled-color:   $colour-primary; 
+  
+
+ 
+$navbar-light-color:                rgba($colour-dark, .6);
+$navbar-light-hover-color:          rgba($colour-dark, .9);
+$navbar-light-active-color:         rgba($colour-dark, .9);
+$navbar-light-disabled-color:       rgba($colour-dark, .6);
+
+$link-color:   $colour-primary;         
+
+$font-family-base:        'lato', sans-serif; 
+$headings-font-family:    'Playfair Display', serif;
+$headings-color:          $colour-primary;
+
+$body-bg: $colour-light;
+$body-color: $colour-dark;
+
+$smal-width: 576px;
+$medium-width: 768px;
+$large-width: 992px;
+$large-xl-width: 1100px;
+
+$hr-border-color: none;
+  
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/global";
+@import "./partials/footer";
+@import "./partials/pagination";
+@import "./partials/forms";
+@import "./partials/typography";
+@import "./partials/button";
+@import "./partials/carousel";
+@import "./partials/acordion";
+@import "./partials/tabs";
+@import "./partials/contact";
+@import "./partials/card";
+
+
+
+
+
+
